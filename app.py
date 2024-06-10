@@ -28,5 +28,5 @@ def get_sum():
         return jsonify({'error': 'Error from API Gateway'}), response.status_code
 
 if __name__ == '__main__':
-     app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000)
     app.run(debug=True)
